@@ -8,7 +8,7 @@ ID = "2d606d88-ca1f-4541-992a-bcd21a7abb3e"
   base    = "pfp/"
   # NOTE: This is where we will look for package.json/.nvmrc/etc, not root.
   # This is the directory that you are publishing from (relative to root of your repo)
-  publish = "pfp/build/"
+  publish = "pfp/"
   # This will be your default build command
   command = "yarn build"
 
