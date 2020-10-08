@@ -11,3 +11,8 @@ ID = "2d606d88-ca1f-4541-992a-bcd21a7abb3e"
   publish = "pfp/build/"
   # This will be your default build command
   command = "yarn build"
+
+  [[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
